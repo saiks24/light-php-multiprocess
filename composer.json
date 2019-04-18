@@ -16,6 +16,10 @@
   },
   "autoload": {
     "psr-4": {
+      "Saiks24\\Threads\\": "src/Threads",
+      "Saiks24\\Tasks\\": "src/Tasks",
+      "Saiks24\\Pool\\": "src/Pool",
+      "Saiks24\\Core\\": "src/Core"
     }
   },
   "require-dev": {
