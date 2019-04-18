@@ -2,12 +2,14 @@
 
 namespace Saiks24\Pool;
 
+use Saiks24\Threads\ThreadInterface;
+
 /**
  * Class ProcessPull
  */
 class ProcessPull
 {
-    /** @var SplObjectStorage */
+    /** @var \SplObjectStorage */
     private $threadStorage;
 
     /** Attach new process to pull
