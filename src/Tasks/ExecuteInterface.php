@@ -15,7 +15,7 @@ interface ExecuteInterface
     /** Start task execute
      * @return mixed
      */
-    public function process();
+    public function execute();
 
     /** On success end of execute
      * @return mixed
