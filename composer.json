@@ -1,0 +1,24 @@
+{
+  "name": "saiks24/light-php-multiprocess",
+  "description": "Manager to work with many process in PHP",
+  "homepage": "https://github.com/saiks24/light-php-multiprocess",
+  "keywords": ["php","multiprocess","multithreads","thread","threads","process"],
+  "authors": [
+    {
+      "name": "Saiks24",
+      "email": "saiks1337@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "Apache-2",
+  "require": {
+    "ext-pcntl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
