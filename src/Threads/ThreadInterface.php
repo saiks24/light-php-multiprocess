@@ -5,5 +5,5 @@
  */
 interface ThreadInterface
 {
-
+    public function run();
 }
