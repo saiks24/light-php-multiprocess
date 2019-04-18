@@ -1,5 +1,7 @@
 <?php
 
+namespace Saiks24\Pool;
+
 /**
  * Class ProcessPull
  */
